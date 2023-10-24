@@ -38,6 +38,8 @@ public class Searching {
             System.out.println(personsToSearch);
         }
 
+        System.out.println("Unfortunately noone here is seller of mango :( Keep searching. ");
+
     }
     private boolean isSellerOfMango(String name) {
         return name.endsWith("m");
